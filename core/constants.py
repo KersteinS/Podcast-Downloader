@@ -1,3 +1,9 @@
 HISTORY_PATH = ".\\history.json"
 SUPPORTED_DATE_FORMATS = ["%a, %d %b %Y %H:%M:%S %Z", "%a, %d %b %Y %H:%M:%S %z"]
 SUPPORTED_AUDIO_FORMATS = [".mp3", ".m4a", ".wav", ".aiff", ".aac", ".ogg", ".flac", ".wma", ".alac"]
+APP_TITLE = "Podcast Downloader"
+RSS_HINT = "RSS feed. Click the icon to visit RSS page on the web"
+LOC_HINT = "Click the icon to change the save location of the podcast episodes"
+NEW_INSTRUCTIONS = "Enter the RSS link and the file location in which to save downloaded episodes:"
+RSS_INSTRUCTIONS = "Must be a valid URL"
+LOC_INSTRUCTIONS = "Must be a valid folder path"

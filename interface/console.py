@@ -6,4 +6,4 @@ logger = logging.getLogger(__name__)
 def run():
     logger.info("Running console mode")
     history = create_or_fetch_history()
-    download_podcasts(history)
+    download_podcasts(history, [])
